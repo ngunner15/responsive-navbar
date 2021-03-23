@@ -1,9 +1,12 @@
 body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: #707070;
 }
 
-h1 ,p {
+h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
@@ -14,6 +17,27 @@ h1 {
   font-family: 'Lora', sans-serif;
   font-weight: 400;
   font-size: 2rem;
+  color: #143774;
+}
+
+h2 {
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #143774;
+}
+
+a {
+  color: #1792d2;
+}
+
+a:hover,
+a:focus {
+  color: #143774;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .subtitle {
@@ -37,7 +61,23 @@ h1 {
 header {
   padding: 2em 0;
   background: #f8f8f8;
-  color: #707070;
+}
+
+.article-read-more {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #1792d2;
+  text-decoration: none;
+}
+
+.article-read-more:hover,
+.article-read-more:focus {
+  color: #143774;
+  text-decoration: underline;
+}
+
+.article-info {
+  font-size: 0.875rem;
 }
 
 /* Navigation */
