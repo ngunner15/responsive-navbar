@@ -75,6 +75,13 @@ header {
   margin-bottom: 2.5em;
 }
 
+footer {
+  background:#143774;
+  color: white;
+  text-align: center;
+  padding: 3em 0;
+}
+
 .article-read-more {
   font-size: 0.875rem;
   font-weight: 700;
