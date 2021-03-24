@@ -53,7 +53,7 @@ strong {
   margin: 0 auto;
 }
 
-.container-nav {
+.container-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -61,6 +61,14 @@ strong {
 header {
   padding: 2em 0;
   background: #f8f8f8;
+}
+
+main {
+  width: 75%;
+}
+
+aside {
+  width: 20%;
 }
 
 .article-read-more {
@@ -119,7 +127,7 @@ nav a:focus {
 
 @media (max-width: 675px) {
 
-  .container-nav {
+  .container-flex {
     flex-direction: column;
   }
 
