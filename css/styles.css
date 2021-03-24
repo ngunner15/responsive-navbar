@@ -60,20 +60,14 @@ strong {
 
 .container-flex {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 header {
   padding: 2em 0;
   background: #f8f8f8;
-}
-
-main {
-  width: 75%;
-}
-
-aside {
-  width: 20%;
+  text-align: center;
 }
 
 .article-read-more {
@@ -126,25 +120,32 @@ nav a:focus {
   border-bottom: 2px solid #707070;
 }
 
-.current-page:hover {
+.current-page:hover,
+.current-page:focus {
   color: #707070;
 }
 
-@media (max-width: 675px) {
+@media (min-width: 675px) {
 
   .container-flex {
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  header {
-    text-align: center;
+  main {
+    width: 75%;
   }
+  
+  aside {
+    width: 20%;
+  }
+}
 
+@media (max-width: 675px) {
   nav ul {
-    flex-direction: column;
+      flex-direction: column;
   }
-
+  
   nav li {
-    margin: .5em 0;
+      margin: .5em 0;
   }
 }
