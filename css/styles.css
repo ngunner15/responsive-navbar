@@ -3,6 +3,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   font-size: 1.125rem;
+  line-height: 1.6;
 }
 
 h1, h2, h3, p {
@@ -107,6 +108,7 @@ footer {
 .widget-title,
 .widget-recent-post-title {
     font-size: 1rem;
+    line-height: 1.2;
 }
 
 .widget-recent-post-title {
